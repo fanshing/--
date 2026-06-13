@@ -602,7 +602,7 @@
   {
     "name": "Miss.Christine",
     "stars": 5,
-    "branch": "原始术师",
+    "branch": "本源术师",
     "class": "术师"
   },
   {
@@ -716,7 +716,7 @@
   {
     "name": "初雪",
     "stars": 5,
-    "branch": "掘地者",
+    "branch": "削弱者",
     "class": "辅助"
   },
   {
@@ -794,7 +794,7 @@
   {
     "name": "响石",
     "stars": 5,
-    "branch": "原始重装",
+    "branch": "本源重装",
     "class": "重装"
   },
   {
@@ -926,7 +926,7 @@
   {
     "name": "巫恋",
     "stars": 5,
-    "branch": "掘地者",
+    "branch": "削弱者",
     "class": "辅助"
   },
   {
@@ -998,7 +998,7 @@
   {
     "name": "折光",
     "stars": 5,
-    "branch": "原始术师",
+    "branch": "本源术师",
     "class": "术师"
   },
   {
@@ -1214,7 +1214,7 @@
   {
     "name": "海霓",
     "stars": 5,
-    "branch": "掘地者",
+    "branch": "削弱者",
     "class": "辅助"
   },
   {
@@ -1238,7 +1238,7 @@
   {
     "name": "温米",
     "stars": 5,
-    "branch": "原始术师",
+    "branch": "本源术师",
     "class": "术师"
   },
   {
@@ -1442,7 +1442,7 @@
   {
     "name": "聆音",
     "stars": 5,
-    "branch": "原始近卫",
+    "branch": "本源近卫",
     "class": "近卫"
   },
   {
@@ -1502,7 +1502,7 @@
   {
     "name": "菲莱",
     "stars": 5,
-    "branch": "原始重装",
+    "branch": "本源重装",
     "class": "重装"
   },
   {
@@ -1562,7 +1562,7 @@
   {
     "name": "裂响",
     "stars": 5,
-    "branch": "原始重装",
+    "branch": "本源重装",
     "class": "重装"
   },
   {
@@ -1766,7 +1766,7 @@
   {
     "name": "风絮",
     "stars": 5,
-    "branch": "巡疗者",
+    "branch": "守望者",
     "class": "医疗"
   },
   {
@@ -1886,7 +1886,7 @@
   {
     "name": "余",
     "stars": 6,
-    "branch": "原始重装",
+    "branch": "本源重装",
     "class": "重装"
   },
   {
@@ -1928,7 +1928,7 @@
   {
     "name": "凯尔希·思衡托",
     "stars": 6,
-    "branch": "巡疗者",
+    "branch": "守望者",
     "class": "医疗"
   },
   {
@@ -2012,7 +2012,7 @@
   {
     "name": "妮芙",
     "stars": 6,
-    "branch": "原始术师",
+    "branch": "本源术师",
     "class": "术师"
   },
   {
@@ -2252,13 +2252,13 @@
   {
     "name": "灵知",
     "stars": 6,
-    "branch": "掘地者",
+    "branch": "削弱者",
     "class": "辅助"
   },
   {
     "name": "烛煌",
     "stars": 6,
-    "branch": "原始术师",
+    "branch": "本源术师",
     "class": "术师"
   },
   {
@@ -2336,7 +2336,7 @@
   {
     "name": "真言",
     "stars": 6,
-    "branch": "原始术师",
+    "branch": "本源术师",
     "class": "术师"
   },
   {
