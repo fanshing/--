@@ -1,0 +1,194 @@
+<!doctype html>
+<html lang="zh-CN">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>职业图标导入助手</title>
+  <style>
+    :root{--bg:#0f1113;--panel:#141518;--muted:#9aa0a6;--accent:#e6e6e6;--line:rgba(255,255,255,.08)}
+    html,body{height:100%;margin:0}
+    body{font-family:Inter, Arial, sans-serif;background:var(--bg);color:var(--accent);padding:18px}
+    h1{margin:6px 0 8px;font-size:22px}
+    p{color:var(--muted);margin:6px 0}
+    code{background:rgba(255,255,255,0.06);padding:2px 6px;border-radius:4px}
+
+    .grid{display:grid;grid-template-columns:repeat(auto-fit,minmax(220px,1fr));gap:12px;margin-top:12px}
+    .tile{background:linear-gradient(180deg,var(--panel),#101214);border:1px solid var(--line);border-radius:10px;padding:12px;min-height:220px;display:flex;flex-direction:column;gap:8px}
+    .title{display:flex;align-items:center;justify-content:space-between;gap:8px}
+    .cls{font-weight:800}
+    .hint{font-size:12px;color:var(--muted)}
+
+    .drop{flex:1;border:1px dashed rgba(255,255,255,.18);border-radius:10px;display:flex;align-items:center;justify-content:center;color:var(--muted);text-align:center;padding:10px;cursor:pointer;user-select:none}
+    .drop.drag{border-color:#fff;color:#fff}
+    .preview{display:none;align-items:center;justify-content:center;border-radius:10px;overflow:hidden;border:1px solid rgba(255,255,255,.08)}
+    .preview img{width:100%;height:160px;object-fit:contain;background:#000}
+
+    .row{display:flex;gap:8px;flex-wrap:wrap}
+    button{background:#1c1f23;border:1px solid rgba(255,255,255,.08);color:var(--accent);padding:8px 10px;border-radius:8px;cursor:pointer}
+    button:disabled{opacity:.5;cursor:not-allowed}
+    input[type=file]{display:none}
+
+    .ok{color:#c9f5c9}
+    .warn{color:#ffd29c}
+  </style>
+</head>
+<body>
+  <h1>职业图标导入助手</h1>
+  <p>用途：把你手上的职业图标快速变成项目需要的文件名。</p>
+  <p>操作：对每个职业，<b>拖拽图片</b>到卡片里，或点击选择文件，或直接从剪贴板 <b>Ctrl+V</b> 粘贴。</p>
+  <p>下载后把文件放到 <code>public/icons/classes/</code>，刷新游戏页面即可生效。</p>
+
+  <div class="grid" id="grid"></div>
+
+  <script>
+    const CLASSES = ['先锋','近卫','重装','狙击','术师','医疗','辅助','特种'];
+
+    function el(tag, attrs, children) {
+      const e = document.createElement(tag);
+      if (attrs) {
+        Object.keys(attrs).forEach(k => {
+          if (k === 'class') e.className = attrs[k];
+          else if (k === 'text') e.textContent = attrs[k];
+          else e.setAttribute(k, attrs[k]);
+        });
+      }
+      (children || []).forEach(c => e.appendChild(c));
+      return e;
+    }
+
+    function downloadBlob(blob, filename) {
+      const url = URL.createObjectURL(blob);
+      const a = document.createElement('a');
+      a.href = url;
+      a.download = filename;
+      document.body.appendChild(a);
+      a.click();
+      a.remove();
+      setTimeout(() => URL.revokeObjectURL(url), 500);
+    }
+
+    async function fileToPngBlob(file) {
+      // 如果本身是 png，直接用；否则用 canvas 转成 png（透明背景会尽量保留）。
+      const type = String(file.type || '').toLowerCase();
+      if (type === 'image/png') return file;
+
+      const imgUrl = URL.createObjectURL(file);
+      try {
+        const img = new Image();
+        img.decoding = 'async';
+        await new Promise((resolve, reject) => {
+          img.onload = resolve;
+          img.onerror = reject;
+          img.src = imgUrl;
+        });
+
+        const canvas = document.createElement('canvas');
+        canvas.width = img.naturalWidth || img.width;
+        canvas.height = img.naturalHeight || img.height;
+        const ctx = canvas.getContext('2d');
+        ctx.clearRect(0,0,canvas.width,canvas.height);
+        ctx.drawImage(img,0,0);
+        const blob = await new Promise(resolve => canvas.toBlob(resolve, 'image/png'));
+        if (!blob) throw new Error('PNG 转换失败');
+        return blob;
+      } finally {
+        URL.revokeObjectURL(imgUrl);
+      }
+    }
+
+    function setPreview(previewEl, imgEl, file) {
+      const url = URL.createObjectURL(file);
+      imgEl.onload = () => URL.revokeObjectURL(url);
+      imgEl.src = url;
+      previewEl.style.display = 'flex';
+    }
+
+    function setupTile(container, cls) {
+      const input = el('input', { type: 'file', accept: 'image/*' });
+      const drop = el('div', { class: 'drop', text: '拖拽/点击选择\n或 Ctrl+V 粘贴' });
+      const preview = el('div', { class: 'preview' }, [el('img')]);
+      const img = preview.querySelector('img');
+
+      const status = el('div', { class: 'hint warn', text: '未导入' });
+      const btnDownload = el('button', { disabled: 'true' });
+      btnDownload.textContent = '下载为 ' + cls + '.png';
+
+      let lastFile = null;
+
+      async function handleFile(file) {
+        if (!file) return;
+        lastFile = file;
+        setPreview(preview, img, file);
+        status.textContent = '已导入：' + (file.name || '图片');
+        status.className = 'hint ok';
+        btnDownload.disabled = false;
+      }
+
+      drop.addEventListener('click', () => input.click());
+      input.addEventListener('change', () => handleFile(input.files && input.files[0]));
+
+      drop.addEventListener('dragover', (e) => {
+        e.preventDefault();
+        drop.classList.add('drag');
+      });
+      drop.addEventListener('dragleave', () => drop.classList.remove('drag'));
+      drop.addEventListener('drop', (e) => {
+        e.preventDefault();
+        drop.classList.remove('drag');
+        const f = e.dataTransfer && e.dataTransfer.files && e.dataTransfer.files[0];
+        handleFile(f);
+      });
+
+      // clipboard paste (image)
+      window.addEventListener('paste', (e) => {
+        try {
+          const items = e.clipboardData && e.clipboardData.items;
+          if (!items) return;
+          for (const it of items) {
+            if (it && it.type && it.type.startsWith('image/')) {
+              const f = it.getAsFile();
+              if (document.activeElement === drop || document.activeElement === document.body) {
+                // only paste into the last interacted tile if focused; we don't have focus tracking, so ignore here
+              }
+              // 粘贴默认作用于“鼠标最后点击过的 tile”：这里用一个简单策略——只处理当前 tile 在视口中时的 paste。
+              // 用户可以先点击目标 tile 再 Ctrl+V。
+              if (drop.matches(':hover') || container.matches(':hover')) {
+                handleFile(f);
+                break;
+              }
+            }
+          }
+        } catch (_) {
+          // ignore
+        }
+      });
+
+      btnDownload.addEventListener('click', async () => {
+        if (!lastFile) return;
+        const blob = await fileToPngBlob(lastFile);
+        downloadBlob(blob, cls + '.png');
+      });
+
+      const head = el('div', { class: 'title' }, [
+        el('div', { class: 'cls', text: cls }),
+        status
+      ]);
+
+      const row = el('div', { class: 'row' }, [btnDownload]);
+
+      container.appendChild(head);
+      container.appendChild(drop);
+      container.appendChild(preview);
+      container.appendChild(input);
+      container.appendChild(row);
+    }
+
+    const grid = document.getElementById('grid');
+    CLASSES.forEach(cls => {
+      const tile = el('div', { class: 'tile' });
+      setupTile(tile, cls);
+      grid.appendChild(tile);
+    });
+  </script>
+</body>
+</html>

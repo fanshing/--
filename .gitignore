@@ -1,0 +1,5 @@
+﻿node_modules
+.env
+
+# temporary local test output files
+_tmp*

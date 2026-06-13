@@ -1,0 +1,20 @@
+{
+  "source": "prts.wiki MediaWiki API (search + imageinfo)",
+  "overrides": "server/tools/prts-operator-overrides.json",
+  "count": 1,
+  "ok": 1,
+  "fail": 0,
+  "items": [
+    {
+      "name": "罗德岛隐秘队",
+      "ok": true,
+      "fileTitle": "文件:头像 罗德岛隐秘队.png",
+      "url": "https://media.prts.wiki/8/84/%E5%A4%B4%E5%83%8F_%E7%BD%97%E5%BE%B7%E5%B2%9B%E9%9A%90%E7%A7%98%E9%98%9F.png",
+      "savedAs": "public/icons/operators/罗德岛隐秘队.png",
+      "error": "",
+      "tried": [
+        "罗德岛隐秘队"
+      ]
+    }
+  ]
+}

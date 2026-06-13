@@ -1,0 +1,296 @@
+<!doctype html>
+<html lang="zh-CN">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>职业图标上传（写入项目）</title>
+  <style>
+    :root{--bg:#0f1113;--panel:#141518;--muted:#9aa0a6;--accent:#e6e6e6;--line:rgba(255,255,255,.08);--ok:#c9f5c9;--warn:#ffd29c;--bad:#ff9c9c}
+    html,body{height:100%;margin:0}
+    body{font-family:Inter, Arial, sans-serif;background:var(--bg);color:var(--accent);padding:18px}
+    h1{margin:6px 0 8px;font-size:22px}
+    p{color:var(--muted);margin:6px 0;line-height:1.4}
+    code{background:rgba(255,255,255,0.06);padding:2px 6px;border-radius:4px}
+
+    .top{display:flex;gap:10px;flex-wrap:wrap;align-items:center;margin:10px 0 6px}
+    button{background:#1c1f23;border:1px solid rgba(255,255,255,.08);color:var(--accent);padding:8px 10px;border-radius:8px;cursor:pointer}
+    button:disabled{opacity:.5;cursor:not-allowed}
+    .pill{font-size:12px;padding:4px 8px;border-radius:999px;border:1px solid rgba(255,255,255,.10);color:var(--muted)}
+
+    .fixed-pool-grid {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 18px;
+      margin-top: 18px;
+    }
+    .tile {
+      background: #181a1e;
+      border: 2px solid #23262b;
+      border-radius: 12px;
+      min-width: 180px;
+      max-width: 200px;
+      min-height: 260px;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      box-shadow: 0 2px 8px #000a;
+      padding: 16px 10px 12px 10px;
+      position: relative;
+      transition: border 0.2s;
+    }
+    .tile:hover {
+      border: 2px solid #fff2;
+    }
+    .title {
+      width: 100%;
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      gap: 8px;
+      margin-bottom: 4px;
+    }
+    .cls {
+      font-weight: 800;
+      font-size: 16px;
+      color: #fff;
+      text-shadow: 0 1px 2px #000a;
+    }
+    .status {
+      font-size: 12px;
+      color: var(--warn);
+      margin-left: auto;
+    }
+    .status.ok { color: var(--ok); }
+    .status.bad { color: var(--bad); }
+    .drop {
+      flex: 1;
+      border: 1.5px dashed #3a3e45;
+      border-radius: 8px;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      color: #7e8795;
+      text-align: center;
+      padding: 10px;
+      cursor: pointer;
+      user-select: none;
+      background: #111216;
+      margin-bottom: 8px;
+      min-height: 60px;
+      font-size: 13px;
+    }
+    .drop.drag {
+      border-color: #fff;
+      color: #fff;
+      background: #23262b;
+    }
+    .preview {
+      display: none;
+      align-items: center;
+      justify-content: center;
+      border-radius: 8px;
+      overflow: hidden;
+      border: 1px solid #23262b;
+      margin-bottom: 8px;
+      width: 100%;
+      min-height: 120px;
+      background: #000;
+    }
+    .preview img {
+      width: 100%;
+      height: 120px;
+      object-fit: contain;
+      background: #000;
+    }
+    .row {
+      display: flex;
+      gap: 8px;
+      flex-wrap: wrap;
+      width: 100%;
+      justify-content: flex-end;
+    }
+    input[type=file] { display: none; }
+
+    .drop{flex:1;border:1px dashed rgba(255,255,255,.18);border-radius:10px;display:flex;align-items:center;justify-content:center;color:var(--muted);text-align:center;padding:10px;cursor:pointer;user-select:none}
+    .drop.drag{border-color:#fff;color:#fff}
+    .preview{display:none;align-items:center;justify-content:center;border-radius:10px;overflow:hidden;border:1px solid rgba(255,255,255,.08)}
+    .preview img{width:100%;height:170px;object-fit:contain;background:#000}
+
+    .row{display:flex;gap:8px;flex-wrap:wrap}
+    input[type=file]{display:none}
+  </style>
+</head>
+<body>
+  <div style="margin-bottom: 18px;">
+    <div style="font-size:18px;font-weight:800;letter-spacing:1px;color:#bfc6d1;text-shadow:0 1px 2px #000;">
+      固定干员 / <span style="font-family:Arial,sans-serif;letter-spacing:2px;">FIXED POOL</span>
+    </div>
+    <div style="color:#7e8795;font-size:13px;margin-top:2px;">把你那套“完全一致”的职业图标拖进对应职业卡片，点“上传到项目”，服务端会写入 <code>public/icons/classes/&lt;职业&gt;.png</code>（或 webp/svg）。上传后回到游戏页面刷新即可生效。如果没生效，试试 Ctrl+F5。</div>
+  </div>
+
+  <div class="top">
+    <button id="btn-refresh">检查当前状态</button>
+    <span class="pill" id="server-status">未检查</span>
+    <span class="pill">接口：<code>/api/icons/class</code></span>
+  </div>
+
+  <div class="fixed-pool-grid" id="grid"></div>
+
+  <script>
+    const CLASSES = ['先锋','近卫','重装','狙击','术师','医疗','辅助','特种'];
+
+    function el(tag, attrs, children) {
+      const e = document.createElement(tag);
+      if (attrs) {
+        Object.keys(attrs).forEach(k => {
+          if (k === 'class') e.className = attrs[k];
+          else if (k === 'text') e.textContent = attrs[k];
+          else e.setAttribute(k, attrs[k]);
+        });
+      }
+      (children || []).forEach(c => e.appendChild(c));
+      return e;
+    }
+
+    async function fetchStatus() {
+      const pill = document.getElementById('server-status');
+      try {
+        pill.textContent = '检查中…';
+        const res = await fetch('/api/icons/status', { cache: 'no-store' });
+        const json = await res.json();
+        if (!json || json.ok !== true) throw new Error((json && json.error) || '未知错误');
+        const missing = (json.classes || []).filter(c => !(c.hasSvg || c.hasPng || c.hasWebp)).map(c => c.cls);
+        pill.textContent = missing.length ? ('缺：' + missing.join('、')) : '已齐全';
+      } catch (e) {
+        pill.textContent = '检查失败：' + (e && e.message ? e.message : '未知错误');
+      }
+    }
+
+    async function fileToDataUrl(file) {
+      return await new Promise((resolve, reject) => {
+        const r = new FileReader();
+        r.onload = () => resolve(String(r.result || ''));
+        r.onerror = () => reject(new Error('读取文件失败'));
+        r.readAsDataURL(file);
+      });
+    }
+
+    async function uploadIcon(cls, dataUrl) {
+      const res = await fetch('/api/icons/class', {
+        method: 'POST',
+        headers: { 'Content-Type': 'application/json' },
+        body: JSON.stringify({ cls, dataUrl })
+      });
+      const json = await res.json().catch(() => null);
+      if (!res.ok || !json || json.ok !== true) {
+        const msg = (json && (json.error || json.detail)) ? (json.error || json.detail) : ('HTTP ' + res.status);
+        throw new Error(msg);
+      }
+      return json;
+    }
+
+    function setPreview(previewEl, imgEl, file) {
+      const url = URL.createObjectURL(file);
+      imgEl.onload = () => URL.revokeObjectURL(url);
+      imgEl.src = url;
+      previewEl.style.display = 'flex';
+    }
+
+    function setupTile(container, cls) {
+      const input = el('input', { type: 'file', accept: 'image/*' });
+      const drop = el('div', { class: 'drop', text: '拖拽/点击选择\n或 Ctrl+V 粘贴（先把鼠标移到此卡片上）' });
+      const preview = el('div', { class: 'preview' }, [el('img')]);
+      const img = preview.querySelector('img');
+
+      const status = el('div', { class: 'status', text: '未选择图片' });
+      const btnUpload = el('button', { disabled: 'true' });
+      btnUpload.textContent = '上传到项目';
+
+      let lastFile = null;
+
+      async function handleFile(file) {
+        if (!file) return;
+        lastFile = file;
+        setPreview(preview, img, file);
+        status.textContent = '已选择：' + (file.name || '图片');
+        status.className = 'status ok';
+        btnUpload.disabled = false;
+      }
+
+      drop.addEventListener('click', () => input.click());
+      input.addEventListener('change', () => handleFile(input.files && input.files[0]));
+
+      drop.addEventListener('dragover', (e) => {
+        e.preventDefault();
+        drop.classList.add('drag');
+      });
+      drop.addEventListener('dragleave', () => drop.classList.remove('drag'));
+      drop.addEventListener('drop', (e) => {
+        e.preventDefault();
+        drop.classList.remove('drag');
+        const f = e.dataTransfer && e.dataTransfer.files && e.dataTransfer.files[0];
+        handleFile(f);
+      });
+
+      window.addEventListener('paste', (e) => {
+        try {
+          if (!(container.matches(':hover') || drop.matches(':hover'))) return;
+          const items = e.clipboardData && e.clipboardData.items;
+          if (!items) return;
+          for (const it of items) {
+            if (it && it.type && it.type.startsWith('image/')) {
+              const f = it.getAsFile();
+              handleFile(f);
+              break;
+            }
+          }
+        } catch (_) {
+          // ignore
+        }
+      });
+
+      btnUpload.addEventListener('click', async () => {
+        if (!lastFile) return;
+        btnUpload.disabled = true;
+        status.textContent = '上传中…';
+        status.className = 'status';
+        try {
+          const dataUrl = await fileToDataUrl(lastFile);
+          const out = await uploadIcon(cls, dataUrl);
+          status.textContent = '已写入：' + out.path;
+          status.className = 'status ok';
+          await fetchStatus();
+        } catch (e) {
+          status.textContent = '上传失败：' + (e && e.message ? e.message : '未知错误');
+          status.className = 'status bad';
+        } finally {
+          btnUpload.disabled = false;
+        }
+      });
+
+      const head = el('div', { class: 'title' }, [
+        el('div', { class: 'cls', text: cls }),
+        status
+      ]);
+
+      const row = el('div', { class: 'row' }, [btnUpload]);
+
+      container.appendChild(head);
+      container.appendChild(drop);
+      container.appendChild(preview);
+      container.appendChild(input);
+      container.appendChild(row);
+    }
+
+    const grid = document.getElementById('grid');
+    CLASSES.forEach(cls => {
+      const tile = el('div', { class: 'tile' });
+      setupTile(tile, cls);
+      grid.appendChild(tile);
+    });
+
+    document.getElementById('btn-refresh').addEventListener('click', fetchStatus);
+    fetchStatus();
+  </script>
+</body>
+</html>

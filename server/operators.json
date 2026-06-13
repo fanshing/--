@@ -1,0 +1,2684 @@
+[
+  {
+    "name": "CONFESS-47",
+    "stars": 1,
+    "branch": "pioneer",
+    "class": "先锋"
+  },
+  {
+    "name": "Castle-3",
+    "stars": 1,
+    "branch": "fearless",
+    "class": "近卫"
+  },
+  {
+    "name": "Friston-3",
+    "stars": 1,
+    "branch": "protector",
+    "class": "重装"
+  },
+  {
+    "name": "GALLUS²",
+    "stars": 1,
+    "branch": "corecaster",
+    "class": "术师"
+  },
+  {
+    "name": "Lancet-2",
+    "stars": 1,
+    "branch": "physician",
+    "class": "医疗"
+  },
+  {
+    "name": "PhonoR-0",
+    "stars": 1,
+    "branch": "ritualist",
+    "class": "辅助"
+  },
+  {
+    "name": "THRM-EX",
+    "stars": 1,
+    "branch": "executor",
+    "class": "特种"
+  },
+  {
+    "name": "U-Official",
+    "stars": 1,
+    "branch": "bard",
+    "class": "辅助"
+  },
+  {
+    "name": "正义骑士号",
+    "stars": 1,
+    "branch": "fastshot",
+    "class": "狙击"
+  },
+  {
+    "name": "泰拉大陆调查团",
+    "stars": 1,
+    "branch": "bombarder",
+    "class": "狙击"
+  },
+  {
+    "name": "罗德岛隐秘队",
+    "stars": 1,
+    "branch": "tactician",
+    "class": "先锋"
+  },
+  {
+    "name": "12F",
+    "stars": 2,
+    "branch": "splashcaster",
+    "class": "术师"
+  },
+  {
+    "name": "夜刀",
+    "stars": 2,
+    "branch": "pioneer",
+    "class": "先锋"
+  },
+  {
+    "name": "巡林者",
+    "stars": 2,
+    "branch": "fastshot",
+    "class": "狙击"
+  },
+  {
+    "name": "杜林",
+    "stars": 2,
+    "branch": "corecaster",
+    "class": "术师"
+  },
+  {
+    "name": "黑角",
+    "stars": 2,
+    "branch": "protector",
+    "class": "重装"
+  },
+  {
+    "name": "克洛丝",
+    "stars": 3,
+    "branch": "fastshot",
+    "class": "狙击"
+  },
+  {
+    "name": "卡缇",
+    "stars": 3,
+    "branch": "protector",
+    "class": "重装"
+  },
+  {
+    "name": "史都华德",
+    "stars": 3,
+    "branch": "corecaster",
+    "class": "术师"
+  },
+  {
+    "name": "安德切尔",
+    "stars": 3,
+    "branch": "fastshot",
+    "class": "狙击"
+  },
+  {
+    "name": "安赛尔",
+    "stars": 3,
+    "branch": "physician",
+    "class": "医疗"
+  },
+  {
+    "name": "斑点",
+    "stars": 3,
+    "branch": "guardian",
+    "class": "重装"
+  },
+  {
+    "name": "月见夜",
+    "stars": 3,
+    "branch": "lord",
+    "class": "近卫"
+  },
+  {
+    "name": "梓兰",
+    "stars": 3,
+    "branch": "slower",
+    "class": "辅助"
+  },
+  {
+    "name": "泡普卡",
+    "stars": 3,
+    "branch": "centurion",
+    "class": "近卫"
+  },
+  {
+    "name": "炎熔",
+    "stars": 3,
+    "branch": "splashcaster",
+    "class": "术师"
+  },
+  {
+    "name": "玫兰莎",
+    "stars": 3,
+    "branch": "fearless",
+    "class": "近卫"
+  },
+  {
+    "name": "空爆",
+    "stars": 3,
+    "branch": "aoesniper",
+    "class": "狙击"
+  },
+  {
+    "name": "米格鲁",
+    "stars": 3,
+    "branch": "protector",
+    "class": "重装"
+  },
+  {
+    "name": "翎羽",
+    "stars": 3,
+    "branch": "charger",
+    "class": "先锋"
+  },
+  {
+    "name": "芙蓉",
+    "stars": 3,
+    "branch": "physician",
+    "class": "医疗"
+  },
+  {
+    "name": "芬",
+    "stars": 3,
+    "branch": "pioneer",
+    "class": "先锋"
+  },
+  {
+    "name": "预备干员-后勤",
+    "stars": 3,
+    "branch": "physician",
+    "class": "医疗"
+  },
+  {
+    "name": "预备干员-术师",
+    "stars": 3,
+    "branch": "corecaster",
+    "class": "术师"
+  },
+  {
+    "name": "预备干员-狙击",
+    "stars": 3,
+    "branch": "fastshot",
+    "class": "狙击"
+  },
+  {
+    "name": "预备干员-近战",
+    "stars": 3,
+    "branch": "pioneer",
+    "class": "先锋"
+  },
+  {
+    "name": "预备干员-重装",
+    "stars": 3,
+    "branch": "protector",
+    "class": "重装"
+  },
+  {
+    "name": "香草",
+    "stars": 3,
+    "branch": "pioneer",
+    "class": "先锋"
+  },
+  {
+    "name": "云迹",
+    "stars": 4,
+    "branch": "skywalker",
+    "class": "特种"
+  },
+  {
+    "name": "伊桑",
+    "stars": 4,
+    "branch": "stalker",
+    "class": "特种"
+  },
+  {
+    "name": "休谟斯",
+    "stars": 4,
+    "branch": "reaper",
+    "class": "近卫"
+  },
+  {
+    "name": "冬时",
+    "stars": 4,
+    "branch": "agent",
+    "class": "先锋"
+  },
+  {
+    "name": "刻刀",
+    "stars": 4,
+    "branch": "sword",
+    "class": "近卫"
+  },
+  {
+    "name": "协律",
+    "stars": 4,
+    "branch": "blastcaster",
+    "class": "术师"
+  },
+  {
+    "name": "卡达",
+    "stars": 4,
+    "branch": "funnel",
+    "class": "术师"
+  },
+  {
+    "name": "古米",
+    "stars": 4,
+    "branch": "guardian",
+    "class": "重装"
+  },
+  {
+    "name": "嘉维尔",
+    "stars": 4,
+    "branch": "physician",
+    "class": "医疗"
+  },
+  {
+    "name": "地灵",
+    "stars": 4,
+    "branch": "slower",
+    "class": "辅助"
+  },
+  {
+    "name": "坚雷",
+    "stars": 4,
+    "branch": "artsprotector",
+    "class": "重装"
+  },
+  {
+    "name": "夜烟",
+    "stars": 4,
+    "branch": "corecaster",
+    "class": "术师"
+  },
+  {
+    "name": "孑",
+    "stars": 4,
+    "branch": "merchant",
+    "class": "特种"
+  },
+  {
+    "name": "安比尔",
+    "stars": 4,
+    "branch": "longrange",
+    "class": "狙击"
+  },
+  {
+    "name": "宴",
+    "stars": 4,
+    "branch": "musha",
+    "class": "近卫"
+  },
+  {
+    "name": "布丁",
+    "stars": 4,
+    "branch": "chain",
+    "class": "术师"
+  },
+  {
+    "name": "慕斯",
+    "stars": 4,
+    "branch": "artsfghter",
+    "class": "近卫"
+  },
+  {
+    "name": "断罪者",
+    "stars": 4,
+    "branch": "fearless",
+    "class": "近卫"
+  },
+  {
+    "name": "暗索",
+    "stars": 4,
+    "branch": "hookmaster",
+    "class": "特种"
+  },
+  {
+    "name": "末药",
+    "stars": 4,
+    "branch": "physician",
+    "class": "医疗"
+  },
+  {
+    "name": "杜宾",
+    "stars": 4,
+    "branch": "instructor",
+    "class": "近卫"
+  },
+  {
+    "name": "杰克",
+    "stars": 4,
+    "branch": "fighter",
+    "class": "近卫"
+  },
+  {
+    "name": "杰西卡",
+    "stars": 4,
+    "branch": "fastshot",
+    "class": "狙击"
+  },
+  {
+    "name": "松果",
+    "stars": 4,
+    "branch": "reaperrange",
+    "class": "狙击"
+  },
+  {
+    "name": "格雷伊",
+    "stars": 4,
+    "branch": "splashcaster",
+    "class": "术师"
+  },
+  {
+    "name": "桃金娘",
+    "stars": 4,
+    "branch": "bearer",
+    "class": "先锋"
+  },
+  {
+    "name": "梅",
+    "stars": 4,
+    "branch": "fastshot",
+    "class": "狙击"
+  },
+  {
+    "name": "泡泡",
+    "stars": 4,
+    "branch": "protector",
+    "class": "重装"
+  },
+  {
+    "name": "波登可",
+    "stars": 4,
+    "branch": "slower",
+    "class": "辅助"
+  },
+  {
+    "name": "流星",
+    "stars": 4,
+    "branch": "fastshot",
+    "class": "狙击"
+  },
+  {
+    "name": "深海色",
+    "stars": 4,
+    "branch": "summoner",
+    "class": "辅助"
+  },
+  {
+    "name": "深靛",
+    "stars": 4,
+    "branch": "mystic",
+    "class": "术师"
+  },
+  {
+    "name": "清流",
+    "stars": 4,
+    "branch": "healer",
+    "class": "医疗"
+  },
+  {
+    "name": "清道夫",
+    "stars": 4,
+    "branch": "pioneer",
+    "class": "先锋"
+  },
+  {
+    "name": "猎蜂",
+    "stars": 4,
+    "branch": "fighter",
+    "class": "近卫"
+  },
+  {
+    "name": "白雪",
+    "stars": 4,
+    "branch": "aoesniper",
+    "class": "狙击"
+  },
+  {
+    "name": "盟约·辅助干员",
+    "stars": 4,
+    "branch": "ritualist",
+    "class": "辅助"
+  },
+  {
+    "name": "石英",
+    "stars": 4,
+    "branch": "crusher",
+    "class": "近卫"
+  },
+  {
+    "name": "砾",
+    "stars": 4,
+    "branch": "executor",
+    "class": "特种"
+  },
+  {
+    "name": "红云",
+    "stars": 4,
+    "branch": "fastshot",
+    "class": "狙击"
+  },
+  {
+    "name": "红豆",
+    "stars": 4,
+    "branch": "charger",
+    "class": "先锋"
+  },
+  {
+    "name": "维荻",
+    "stars": 4,
+    "branch": "dollkeeper",
+    "class": "特种"
+  },
+  {
+    "name": "缠丸",
+    "stars": 4,
+    "branch": "fearless",
+    "class": "近卫"
+  },
+  {
+    "name": "罗小黑",
+    "stars": 4,
+    "branch": "lord",
+    "class": "近卫"
+  },
+  {
+    "name": "罗比菈塔",
+    "stars": 4,
+    "branch": "craftsman",
+    "class": "辅助"
+  },
+  {
+    "name": "艾丝黛尔",
+    "stars": 4,
+    "branch": "centurion",
+    "class": "近卫"
+  },
+  {
+    "name": "芳汀",
+    "stars": 4,
+    "branch": "lord",
+    "class": "近卫"
+  },
+  {
+    "name": "苏苏洛",
+    "stars": 4,
+    "branch": "physician",
+    "class": "医疗"
+  },
+  {
+    "name": "蛇屠箱",
+    "stars": 4,
+    "branch": "protector",
+    "class": "重装"
+  },
+  {
+    "name": "褐果",
+    "stars": 4,
+    "branch": "wandermedic",
+    "class": "医疗"
+  },
+  {
+    "name": "角峰",
+    "stars": 4,
+    "branch": "protector",
+    "class": "重装"
+  },
+  {
+    "name": "讯使",
+    "stars": 4,
+    "branch": "pioneer",
+    "class": "先锋"
+  },
+  {
+    "name": "调香师",
+    "stars": 4,
+    "branch": "ringhealer",
+    "class": "医疗"
+  },
+  {
+    "name": "豆苗",
+    "stars": 4,
+    "branch": "tactician",
+    "class": "先锋"
+  },
+  {
+    "name": "跃跃",
+    "stars": 4,
+    "branch": "loopshooter",
+    "class": "狙击"
+  },
+  {
+    "name": "远山",
+    "stars": 4,
+    "branch": "splashcaster",
+    "class": "术师"
+  },
+  {
+    "name": "酸糖",
+    "stars": 4,
+    "branch": "closerange",
+    "class": "狙击"
+  },
+  {
+    "name": "铅踝",
+    "stars": 4,
+    "branch": "siegesniper",
+    "class": "狙击"
+  },
+  {
+    "name": "阿消",
+    "stars": 4,
+    "branch": "pusher",
+    "class": "特种"
+  },
+  {
+    "name": "霜叶",
+    "stars": 4,
+    "branch": "lord",
+    "class": "近卫"
+  },
+  {
+    "name": "露托",
+    "stars": 4,
+    "branch": "unyield",
+    "class": "重装"
+  },
+  {
+    "name": "预备干员-先锋",
+    "stars": 4,
+    "branch": "pioneer",
+    "class": "先锋"
+  },
+  {
+    "name": "预备干员-医疗",
+    "stars": 4,
+    "branch": "physician",
+    "class": "医疗"
+  },
+  {
+    "name": "预备干员-术师",
+    "stars": 4,
+    "branch": "corecaster",
+    "class": "术师"
+  },
+  {
+    "name": "预备干员-特种",
+    "stars": 4,
+    "branch": "executor",
+    "class": "特种"
+  },
+  {
+    "name": "预备干员-狙击",
+    "stars": 4,
+    "branch": "fastshot",
+    "class": "狙击"
+  },
+  {
+    "name": "预备干员-辅助",
+    "stars": 4,
+    "branch": "slower",
+    "class": "辅助"
+  },
+  {
+    "name": "预备干员-近卫",
+    "stars": 4,
+    "branch": "fearless",
+    "class": "近卫"
+  },
+  {
+    "name": "预备干员-重装",
+    "stars": 4,
+    "branch": "protector",
+    "class": "重装"
+  },
+  {
+    "name": "骋风",
+    "stars": 4,
+    "branch": "librator",
+    "class": "近卫"
+  },
+  {
+    "name": "Miss.Christine",
+    "stars": 5,
+    "branch": "primcaster",
+    "class": "术师"
+  },
+  {
+    "name": "Pith",
+    "stars": 5,
+    "branch": "splashcaster",
+    "class": "术师"
+  },
+  {
+    "name": "Sharp",
+    "stars": 5,
+    "branch": "fearless",
+    "class": "近卫"
+  },
+  {
+    "name": "Stormeye",
+    "stars": 5,
+    "branch": "fastshot",
+    "class": "狙击"
+  },
+  {
+    "name": "Touch",
+    "stars": 5,
+    "branch": "physician",
+    "class": "医疗"
+  },
+  {
+    "name": "万顷",
+    "stars": 5,
+    "branch": "bearer",
+    "class": "先锋"
+  },
+  {
+    "name": "三角初华",
+    "stars": 5,
+    "branch": "bard",
+    "class": "辅助"
+  },
+  {
+    "name": "临光",
+    "stars": 5,
+    "branch": "guardian",
+    "class": "重装"
+  },
+  {
+    "name": "乌啾",
+    "stars": 5,
+    "branch": "chainhealer",
+    "class": "医疗"
+  },
+  {
+    "name": "乌有",
+    "stars": 5,
+    "branch": "merchant",
+    "class": "特种"
+  },
+  {
+    "name": "九色鹿",
+    "stars": 5,
+    "branch": "blessing",
+    "class": "辅助"
+  },
+  {
+    "name": "亚叶",
+    "stars": 5,
+    "branch": "physician",
+    "class": "医疗"
+  },
+  {
+    "name": "伯塔尼",
+    "stars": 5,
+    "branch": "ritualist",
+    "class": "辅助"
+  },
+  {
+    "name": "但书",
+    "stars": 5,
+    "branch": "slower",
+    "class": "辅助"
+  },
+  {
+    "name": "八幡海铃",
+    "stars": 5,
+    "branch": "stalker",
+    "class": "特种"
+  },
+  {
+    "name": "冰酿",
+    "stars": 5,
+    "branch": "hunter",
+    "class": "狙击"
+  },
+  {
+    "name": "凛冬",
+    "stars": 5,
+    "branch": "pioneer",
+    "class": "先锋"
+  },
+  {
+    "name": "凛视",
+    "stars": 5,
+    "branch": "ritualist",
+    "class": "辅助"
+  },
+  {
+    "name": "凯瑟琳",
+    "stars": 5,
+    "branch": "craftsman",
+    "class": "辅助"
+  },
+  {
+    "name": "初雪",
+    "stars": 5,
+    "branch": "underminer",
+    "class": "辅助"
+  },
+  {
+    "name": "刺玫",
+    "stars": 5,
+    "branch": "incantationmedic",
+    "class": "医疗"
+  },
+  {
+    "name": "医生",
+    "stars": 5,
+    "branch": "instructor",
+    "class": "近卫"
+  },
+  {
+    "name": "华法琳",
+    "stars": 5,
+    "branch": "physician",
+    "class": "医疗"
+  },
+  {
+    "name": "卡夫卡",
+    "stars": 5,
+    "branch": "executor",
+    "class": "特种"
+  },
+  {
+    "name": "历阵锐枪芬",
+    "stars": 5,
+    "branch": "charger",
+    "class": "先锋"
+  },
+  {
+    "name": "双月",
+    "stars": 5,
+    "branch": "dollkeeper",
+    "class": "特种"
+  },
+  {
+    "name": "可颂",
+    "stars": 5,
+    "branch": "protector",
+    "class": "重装"
+  },
+  {
+    "name": "吉星",
+    "stars": 5,
+    "branch": "reaperrange",
+    "class": "狙击"
+  },
+  {
+    "name": "吽",
+    "stars": 5,
+    "branch": "guardian",
+    "class": "重装"
+  },
+  {
+    "name": "和弦",
+    "stars": 5,
+    "branch": "mystic",
+    "class": "术师"
+  },
+  {
+    "name": "哈洛德",
+    "stars": 5,
+    "branch": "wandermedic",
+    "class": "医疗"
+  },
+  {
+    "name": "哈蒂娅",
+    "stars": 5,
+    "branch": "mercenary",
+    "class": "近卫"
+  },
+  {
+    "name": "响石",
+    "stars": 5,
+    "branch": "primprotector",
+    "class": "重装"
+  },
+  {
+    "name": "四月",
+    "stars": 5,
+    "branch": "fastshot",
+    "class": "狙击"
+  },
+  {
+    "name": "因陀罗",
+    "stars": 5,
+    "branch": "fighter",
+    "class": "近卫"
+  },
+  {
+    "name": "图耶",
+    "stars": 5,
+    "branch": "physician",
+    "class": "医疗"
+  },
+  {
+    "name": "埃拉托",
+    "stars": 5,
+    "branch": "siegesniper",
+    "class": "狙击"
+  },
+  {
+    "name": "复奏",
+    "stars": 5,
+    "branch": "splashcaster",
+    "class": "术师"
+  },
+  {
+    "name": "夏栎",
+    "stars": 5,
+    "branch": "blessing",
+    "class": "辅助"
+  },
+  {
+    "name": "夜半",
+    "stars": 5,
+    "branch": "tactician",
+    "class": "先锋"
+  },
+  {
+    "name": "夜魔",
+    "stars": 5,
+    "branch": "corecaster",
+    "class": "术师"
+  },
+  {
+    "name": "天火",
+    "stars": 5,
+    "branch": "splashcaster",
+    "class": "术师"
+  },
+  {
+    "name": "天空盒",
+    "stars": 5,
+    "branch": "skybreaker",
+    "class": "狙击"
+  },
+  {
+    "name": "奥斯塔",
+    "stars": 5,
+    "branch": "reaperrange",
+    "class": "狙击"
+  },
+  {
+    "name": "奥达",
+    "stars": 5,
+    "branch": "hammer",
+    "class": "近卫"
+  },
+  {
+    "name": "子月",
+    "stars": 5,
+    "branch": "longrange",
+    "class": "狙击"
+  },
+  {
+    "name": "守林人",
+    "stars": 5,
+    "branch": "longrange",
+    "class": "狙击"
+  },
+  {
+    "name": "安哲拉",
+    "stars": 5,
+    "branch": "longrange",
+    "class": "狙击"
+  },
+  {
+    "name": "寒檀",
+    "stars": 5,
+    "branch": "splashcaster",
+    "class": "术师"
+  },
+  {
+    "name": "寒芒克洛丝",
+    "stars": 5,
+    "branch": "fastshot",
+    "class": "狙击"
+  },
+  {
+    "name": "寻澜",
+    "stars": 5,
+    "branch": "agent",
+    "class": "先锋"
+  },
+  {
+    "name": "导火索",
+    "stars": 5,
+    "branch": "centurion",
+    "class": "近卫"
+  },
+  {
+    "name": "小满",
+    "stars": 5,
+    "branch": "slower",
+    "class": "辅助"
+  },
+  {
+    "name": "崖心",
+    "stars": 5,
+    "branch": "hookmaster",
+    "class": "特种"
+  },
+  {
+    "name": "巫恋",
+    "stars": 5,
+    "branch": "underminer",
+    "class": "辅助"
+  },
+  {
+    "name": "布洛卡",
+    "stars": 5,
+    "branch": "centurion",
+    "class": "近卫"
+  },
+  {
+    "name": "幽灵鲨",
+    "stars": 5,
+    "branch": "centurion",
+    "class": "近卫"
+  },
+  {
+    "name": "录武官",
+    "stars": 5,
+    "branch": "physician",
+    "class": "医疗"
+  },
+  {
+    "name": "微风",
+    "stars": 5,
+    "branch": "ringhealer",
+    "class": "医疗"
+  },
+  {
+    "name": "德克萨斯",
+    "stars": 5,
+    "branch": "pioneer",
+    "class": "先锋"
+  },
+  {
+    "name": "惊蛰",
+    "stars": 5,
+    "branch": "chain",
+    "class": "术师"
+  },
+  {
+    "name": "慑砂",
+    "stars": 5,
+    "branch": "aoesniper",
+    "class": "狙击"
+  },
+  {
+    "name": "战车",
+    "stars": 5,
+    "branch": "sword",
+    "class": "近卫"
+  },
+  {
+    "name": "截云",
+    "stars": 5,
+    "branch": "aoesniper",
+    "class": "狙击"
+  },
+  {
+    "name": "戴菲恩",
+    "stars": 5,
+    "branch": "mystic",
+    "class": "术师"
+  },
+  {
+    "name": "承曦格雷伊",
+    "stars": 5,
+    "branch": "bombarder",
+    "class": "狙击"
+  },
+  {
+    "name": "折光",
+    "stars": 5,
+    "branch": "primcaster",
+    "class": "术师"
+  },
+  {
+    "name": "折桠",
+    "stars": 5,
+    "branch": "unyield",
+    "class": "重装"
+  },
+  {
+    "name": "拉普兰德",
+    "stars": 5,
+    "branch": "lord",
+    "class": "近卫"
+  },
+  {
+    "name": "拜松",
+    "stars": 5,
+    "branch": "protector",
+    "class": "重装"
+  },
+  {
+    "name": "掠风",
+    "stars": 5,
+    "branch": "craftsman",
+    "class": "辅助"
+  },
+  {
+    "name": "摆渡人",
+    "stars": 5,
+    "branch": "centurion",
+    "class": "近卫"
+  },
+  {
+    "name": "摩根",
+    "stars": 5,
+    "branch": "fearless",
+    "class": "近卫"
+  },
+  {
+    "name": "撷英调香师",
+    "stars": 5,
+    "branch": "blessing",
+    "class": "辅助"
+  },
+  {
+    "name": "断崖",
+    "stars": 5,
+    "branch": "lord",
+    "class": "近卫"
+  },
+  {
+    "name": "明椒",
+    "stars": 5,
+    "branch": "chainhealer",
+    "class": "医疗"
+  },
+  {
+    "name": "星极",
+    "stars": 5,
+    "branch": "artsfghter",
+    "class": "近卫"
+  },
+  {
+    "name": "星源",
+    "stars": 5,
+    "branch": "chain",
+    "class": "术师"
+  },
+  {
+    "name": "晓歌",
+    "stars": 5,
+    "branch": "agent",
+    "class": "先锋"
+  },
+  {
+    "name": "普罗旺斯",
+    "stars": 5,
+    "branch": "closerange",
+    "class": "狙击"
+  },
+  {
+    "name": "暮落",
+    "stars": 5,
+    "branch": "artsprotector",
+    "class": "重装"
+  },
+  {
+    "name": "暮落",
+    "stars": 5,
+    "branch": "artsprotector",
+    "class": "重装"
+  },
+  {
+    "name": "暴行",
+    "stars": 5,
+    "branch": "centurion",
+    "class": "近卫"
+  },
+  {
+    "name": "暴雨",
+    "stars": 5,
+    "branch": "protector",
+    "class": "重装"
+  },
+  {
+    "name": "月禾",
+    "stars": 5,
+    "branch": "blessing",
+    "class": "辅助"
+  },
+  {
+    "name": "杏仁",
+    "stars": 5,
+    "branch": "hookmaster",
+    "class": "特种"
+  },
+  {
+    "name": "松桐",
+    "stars": 5,
+    "branch": "counsellor",
+    "class": "先锋"
+  },
+  {
+    "name": "极光",
+    "stars": 5,
+    "branch": "duelist",
+    "class": "重装"
+  },
+  {
+    "name": "极境",
+    "stars": 5,
+    "branch": "bearer",
+    "class": "先锋"
+  },
+  {
+    "name": "柏喙",
+    "stars": 5,
+    "branch": "sword",
+    "class": "近卫"
+  },
+  {
+    "name": "格劳克斯",
+    "stars": 5,
+    "branch": "slower",
+    "class": "辅助"
+  },
+  {
+    "name": "格拉尼",
+    "stars": 5,
+    "branch": "charger",
+    "class": "先锋"
+  },
+  {
+    "name": "桑葚",
+    "stars": 5,
+    "branch": "wandermedic",
+    "class": "医疗"
+  },
+  {
+    "name": "梅尔",
+    "stars": 5,
+    "branch": "summoner",
+    "class": "辅助"
+  },
+  {
+    "name": "森西",
+    "stars": 5,
+    "branch": "guardian",
+    "class": "重装"
+  },
+  {
+    "name": "槐琥",
+    "stars": 5,
+    "branch": "executor",
+    "class": "特种"
+  },
+  {
+    "name": "水灯心",
+    "stars": 5,
+    "branch": "loopshooter",
+    "class": "狙击"
+  },
+  {
+    "name": "波卜",
+    "stars": 5,
+    "branch": "ritualist",
+    "class": "辅助"
+  },
+  {
+    "name": "洋灰",
+    "stars": 5,
+    "branch": "duelist",
+    "class": "重装"
+  },
+  {
+    "name": "洛洛",
+    "stars": 5,
+    "branch": "funnel",
+    "class": "术师"
+  },
+  {
+    "name": "海沫",
+    "stars": 5,
+    "branch": "reaper",
+    "class": "近卫"
+  },
+  {
+    "name": "海蒂",
+    "stars": 5,
+    "branch": "bard",
+    "class": "辅助"
+  },
+  {
+    "name": "海霓",
+    "stars": 5,
+    "branch": "underminer",
+    "class": "辅助"
+  },
+  {
+    "name": "深巡",
+    "stars": 5,
+    "branch": "shotprotector",
+    "class": "重装"
+  },
+  {
+    "name": "深律",
+    "stars": 5,
+    "branch": "guardian",
+    "class": "重装"
+  },
+  {
+    "name": "渡桥",
+    "stars": 5,
+    "branch": "tactician",
+    "class": "先锋"
+  },
+  {
+    "name": "温米",
+    "stars": 5,
+    "branch": "primcaster",
+    "class": "术师"
+  },
+  {
+    "name": "濯尘芙蓉",
+    "stars": 5,
+    "branch": "incantationmedic",
+    "class": "医疗"
+  },
+  {
+    "name": "火哨",
+    "stars": 5,
+    "branch": "fortress",
+    "class": "重装"
+  },
+  {
+    "name": "火神",
+    "stars": 5,
+    "branch": "unyield",
+    "class": "重装"
+  },
+  {
+    "name": "火龙S黑角",
+    "stars": 5,
+    "branch": "musha",
+    "class": "近卫"
+  },
+  {
+    "name": "灰喉",
+    "stars": 5,
+    "branch": "fastshot",
+    "class": "狙击"
+  },
+  {
+    "name": "灰毫",
+    "stars": 5,
+    "branch": "fortress",
+    "class": "重装"
+  },
+  {
+    "name": "炎客",
+    "stars": 5,
+    "branch": "fearless",
+    "class": "近卫"
+  },
+  {
+    "name": "炎狱炎熔",
+    "stars": 5,
+    "branch": "splashcaster",
+    "class": "术师"
+  },
+  {
+    "name": "烈夏",
+    "stars": 5,
+    "branch": "lord",
+    "class": "近卫"
+  },
+  {
+    "name": "熔泉",
+    "stars": 5,
+    "branch": "siegesniper",
+    "class": "狙击"
+  },
+  {
+    "name": "燧石",
+    "stars": 5,
+    "branch": "fighter",
+    "class": "近卫"
+  },
+  {
+    "name": "爱丽丝",
+    "stars": 5,
+    "branch": "mystic",
+    "class": "术师"
+  },
+  {
+    "name": "特克诺",
+    "stars": 5,
+    "branch": "soulcaster",
+    "class": "术师"
+  },
+  {
+    "name": "特米米",
+    "stars": 5,
+    "branch": "corecaster",
+    "class": "术师"
+  },
+  {
+    "name": "狮蝎",
+    "stars": 5,
+    "branch": "stalker",
+    "class": "特种"
+  },
+  {
+    "name": "玫拉",
+    "stars": 5,
+    "branch": "closerange",
+    "class": "狙击"
+  },
+  {
+    "name": "瑰盐",
+    "stars": 5,
+    "branch": "ringhealer",
+    "class": "医疗"
+  },
+  {
+    "name": "白金",
+    "stars": 5,
+    "branch": "fastshot",
+    "class": "狙击"
+  },
+  {
+    "name": "白面鸮",
+    "stars": 5,
+    "branch": "ringhealer",
+    "class": "医疗"
+  },
+  {
+    "name": "真理",
+    "stars": 5,
+    "branch": "slower",
+    "class": "辅助"
+  },
+  {
+    "name": "矩",
+    "stars": 5,
+    "branch": "siegesniper",
+    "class": "狙击"
+  },
+  {
+    "name": "石棉",
+    "stars": 5,
+    "branch": "artsprotector",
+    "class": "重装"
+  },
+  {
+    "name": "祐天寺若麦",
+    "stars": 5,
+    "branch": "hammer",
+    "class": "近卫"
+  },
+  {
+    "name": "稀音",
+    "stars": 5,
+    "branch": "summoner",
+    "class": "辅助"
+  },
+  {
+    "name": "空",
+    "stars": 5,
+    "branch": "bard",
+    "class": "辅助"
+  },
+  {
+    "name": "空构",
+    "stars": 5,
+    "branch": "geek",
+    "class": "特种"
+  },
+  {
+    "name": "絮雨",
+    "stars": 5,
+    "branch": "healer",
+    "class": "医疗"
+  },
+  {
+    "name": "红",
+    "stars": 5,
+    "branch": "executor",
+    "class": "特种"
+  },
+  {
+    "name": "红隼",
+    "stars": 5,
+    "branch": "pioneer",
+    "class": "先锋"
+  },
+  {
+    "name": "绮良",
+    "stars": 5,
+    "branch": "stalker",
+    "class": "特种"
+  },
+  {
+    "name": "罗宾",
+    "stars": 5,
+    "branch": "traper",
+    "class": "特种"
+  },
+  {
+    "name": "羽毛笔",
+    "stars": 5,
+    "branch": "reaper",
+    "class": "近卫"
+  },
+  {
+    "name": "耶拉",
+    "stars": 5,
+    "branch": "funnel",
+    "class": "术师"
+  },
+  {
+    "name": "聆音",
+    "stars": 5,
+    "branch": "primguard",
+    "class": "近卫"
+  },
+  {
+    "name": "至简",
+    "stars": 5,
+    "branch": "funnel",
+    "class": "术师"
+  },
+  {
+    "name": "芙兰卡",
+    "stars": 5,
+    "branch": "fearless",
+    "class": "近卫"
+  },
+  {
+    "name": "苇草",
+    "stars": 5,
+    "branch": "charger",
+    "class": "先锋"
+  },
+  {
+    "name": "苍苔",
+    "stars": 5,
+    "branch": "instructor",
+    "class": "近卫"
+  },
+  {
+    "name": "若叶睦",
+    "stars": 5,
+    "branch": "dollkeeper",
+    "class": "特种"
+  },
+  {
+    "name": "苦艾",
+    "stars": 5,
+    "branch": "corecaster",
+    "class": "术师"
+  },
+  {
+    "name": "莎草",
+    "stars": 5,
+    "branch": "chainhealer",
+    "class": "医疗"
+  },
+  {
+    "name": "莱恩哈特",
+    "stars": 5,
+    "branch": "splashcaster",
+    "class": "术师"
+  },
+  {
+    "name": "莱欧斯",
+    "stars": 5,
+    "branch": "fearless",
+    "class": "近卫"
+  },
+  {
+    "name": "菲莱",
+    "stars": 5,
+    "branch": "primprotector",
+    "class": "重装"
+  },
+  {
+    "name": "蒂比",
+    "stars": 5,
+    "branch": "skywalker",
+    "class": "特种"
+  },
+  {
+    "name": "蓝毒",
+    "stars": 5,
+    "branch": "fastshot",
+    "class": "狙击"
+  },
+  {
+    "name": "薄绿",
+    "stars": 5,
+    "branch": "phalanx",
+    "class": "术师"
+  },
+  {
+    "name": "蚀清",
+    "stars": 5,
+    "branch": "blastcaster",
+    "class": "术师"
+  },
+  {
+    "name": "蜜莓",
+    "stars": 5,
+    "branch": "wandermedic",
+    "class": "医疗"
+  },
+  {
+    "name": "蜜蜡",
+    "stars": 5,
+    "branch": "phalanx",
+    "class": "术师"
+  },
+  {
+    "name": "行箸",
+    "stars": 5,
+    "branch": "blessing",
+    "class": "辅助"
+  },
+  {
+    "name": "衡沙",
+    "stars": 5,
+    "branch": "summoner",
+    "class": "辅助"
+  },
+  {
+    "name": "裁度",
+    "stars": 5,
+    "branch": "merchant",
+    "class": "特种"
+  },
+  {
+    "name": "裂响",
+    "stars": 5,
+    "branch": "primprotector",
+    "class": "重装"
+  },
+  {
+    "name": "见行者",
+    "stars": 5,
+    "branch": "pusher",
+    "class": "特种"
+  },
+  {
+    "name": "诗怀雅",
+    "stars": 5,
+    "branch": "instructor",
+    "class": "近卫"
+  },
+  {
+    "name": "诺威尔",
+    "stars": 5,
+    "branch": "healer",
+    "class": "医疗"
+  },
+  {
+    "name": "谜图",
+    "stars": 5,
+    "branch": "agent",
+    "class": "先锋"
+  },
+  {
+    "name": "贝娜",
+    "stars": 5,
+    "branch": "dollkeeper",
+    "class": "特种"
+  },
+  {
+    "name": "贾维",
+    "stars": 5,
+    "branch": "pioneer",
+    "class": "先锋"
+  },
+  {
+    "name": "赤冬",
+    "stars": 5,
+    "branch": "musha",
+    "class": "近卫"
+  },
+  {
+    "name": "赫默",
+    "stars": 5,
+    "branch": "physician",
+    "class": "医疗"
+  },
+  {
+    "name": "车尔尼",
+    "stars": 5,
+    "branch": "artsprotector",
+    "class": "重装"
+  },
+  {
+    "name": "达格达",
+    "stars": 5,
+    "branch": "fighter",
+    "class": "近卫"
+  },
+  {
+    "name": "送葬人",
+    "stars": 5,
+    "branch": "reaperrange",
+    "class": "狙击"
+  },
+  {
+    "name": "郁金香",
+    "stars": 5,
+    "branch": "pioneer",
+    "class": "先锋"
+  },
+  {
+    "name": "野鬃",
+    "stars": 5,
+    "branch": "charger",
+    "class": "先锋"
+  },
+  {
+    "name": "钼铅",
+    "stars": 5,
+    "branch": "traper",
+    "class": "特种"
+  },
+  {
+    "name": "铎铃",
+    "stars": 5,
+    "branch": "crusher",
+    "class": "近卫"
+  },
+  {
+    "name": "铸铁",
+    "stars": 5,
+    "branch": "artsfghter",
+    "class": "近卫"
+  },
+  {
+    "name": "锡人",
+    "stars": 5,
+    "branch": "alchemist",
+    "class": "特种"
+  },
+  {
+    "name": "锡兰",
+    "stars": 5,
+    "branch": "healer",
+    "class": "医疗"
+  },
+  {
+    "name": "闪击",
+    "stars": 5,
+    "branch": "shotprotector",
+    "class": "重装"
+  },
+  {
+    "name": "阿兰娜",
+    "stars": 5,
+    "branch": "craftsman",
+    "class": "辅助"
+  },
+  {
+    "name": "阿米娅",
+    "stars": 5,
+    "branch": "corecaster",
+    "class": "术师"
+  },
+  {
+    "name": "阿罗玛",
+    "stars": 5,
+    "branch": "blastcaster",
+    "class": "术师"
+  },
+  {
+    "name": "陨星",
+    "stars": 5,
+    "branch": "aoesniper",
+    "class": "狙击"
+  },
+  {
+    "name": "隐现",
+    "stars": 5,
+    "branch": "fastshot",
+    "class": "狙击"
+  },
+  {
+    "name": "雪猎",
+    "stars": 5,
+    "branch": "hunter",
+    "class": "狙击"
+  },
+  {
+    "name": "雪绒",
+    "stars": 5,
+    "branch": "corecaster",
+    "class": "术师"
+  },
+  {
+    "name": "雪雉",
+    "stars": 5,
+    "branch": "hookmaster",
+    "class": "特种"
+  },
+  {
+    "name": "雷狼龙S空爆",
+    "stars": 5,
+    "branch": "mercenary",
+    "class": "近卫"
+  },
+  {
+    "name": "雷蛇",
+    "stars": 5,
+    "branch": "shotprotector",
+    "class": "重装"
+  },
+  {
+    "name": "霜华",
+    "stars": 5,
+    "branch": "traper",
+    "class": "特种"
+  },
+  {
+    "name": "青枳",
+    "stars": 5,
+    "branch": "pioneer",
+    "class": "先锋"
+  },
+  {
+    "name": "鞭刃",
+    "stars": 5,
+    "branch": "instructor",
+    "class": "近卫"
+  },
+  {
+    "name": "风丸",
+    "stars": 5,
+    "branch": "dollkeeper",
+    "class": "特种"
+  },
+  {
+    "name": "风絮",
+    "stars": 5,
+    "branch": "watchman",
+    "class": "医疗"
+  },
+  {
+    "name": "食铁兽",
+    "stars": 5,
+    "branch": "pusher",
+    "class": "特种"
+  },
+  {
+    "name": "齐尔查克",
+    "stars": 5,
+    "branch": "agent",
+    "class": "先锋"
+  },
+  {
+    "name": "龙舌兰",
+    "stars": 5,
+    "branch": "librator",
+    "class": "近卫"
+  },
+  {
+    "name": "Mechanist",
+    "stars": 6,
+    "branch": "protector",
+    "class": "重装"
+  },
+  {
+    "name": "Misery",
+    "stars": 6,
+    "branch": "executor",
+    "class": "特种"
+  },
+  {
+    "name": "Mon3tr",
+    "stars": 6,
+    "branch": "chainhealer",
+    "class": "医疗"
+  },
+  {
+    "name": "Pith",
+    "stars": 6,
+    "branch": "splashcaster",
+    "class": "术师"
+  },
+  {
+    "name": "Raidian",
+    "stars": 6,
+    "branch": "slower",
+    "class": "辅助"
+  },
+  {
+    "name": "Sharp",
+    "stars": 6,
+    "branch": "fearless",
+    "class": "近卫"
+  },
+  {
+    "name": "Stormeye",
+    "stars": 6,
+    "branch": "fastshot",
+    "class": "狙击"
+  },
+  {
+    "name": "Touch",
+    "stars": 6,
+    "branch": "physician",
+    "class": "医疗"
+  },
+  {
+    "name": "W",
+    "stars": 6,
+    "branch": "aoesniper",
+    "class": "狙击"
+  },
+  {
+    "name": "丰川祥子",
+    "stars": 6,
+    "branch": "lord",
+    "class": "近卫"
+  },
+  {
+    "name": "乌尔比安",
+    "stars": 6,
+    "branch": "crusher",
+    "class": "近卫"
+  },
+  {
+    "name": "仇白",
+    "stars": 6,
+    "branch": "lord",
+    "class": "近卫"
+  },
+  {
+    "name": "令",
+    "stars": 6,
+    "branch": "summoner",
+    "class": "辅助"
+  },
+  {
+    "name": "伊内丝",
+    "stars": 6,
+    "branch": "agent",
+    "class": "先锋"
+  },
+  {
+    "name": "伊芙利特",
+    "stars": 6,
+    "branch": "blastcaster",
+    "class": "术师"
+  },
+  {
+    "name": "伺夜",
+    "stars": 6,
+    "branch": "tactician",
+    "class": "先锋"
+  },
+  {
+    "name": "余",
+    "stars": 6,
+    "branch": "primprotector",
+    "class": "重装"
+  },
+  {
+    "name": "佩佩",
+    "stars": 6,
+    "branch": "hammer",
+    "class": "近卫"
+  },
+  {
+    "name": "信仰搅拌机",
+    "stars": 6,
+    "branch": "shotprotector",
+    "class": "重装"
+  },
+  {
+    "name": "假日威龙陈",
+    "stars": 6,
+    "branch": "reaperrange",
+    "class": "狙击"
+  },
+  {
+    "name": "傀影",
+    "stars": 6,
+    "branch": "executor",
+    "class": "特种"
+  },
+  {
+    "name": "凛御银灰",
+    "stars": 6,
+    "branch": "counsellor",
+    "class": "先锋"
+  },
+  {
+    "name": "凯尔希",
+    "stars": 6,
+    "branch": "physician",
+    "class": "医疗"
+  },
+  {
+    "name": "凯尔希·思衡托",
+    "stars": 6,
+    "branch": "watchman",
+    "class": "医疗"
+  },
+  {
+    "name": "刻俄柏",
+    "stars": 6,
+    "branch": "corecaster",
+    "class": "术师"
+  },
+  {
+    "name": "卡涅利安",
+    "stars": 6,
+    "branch": "phalanx",
+    "class": "术师"
+  },
+  {
+    "name": "可露希尔",
+    "stars": 6,
+    "branch": "tactician",
+    "class": "先锋"
+  },
+  {
+    "name": "史尔特尔",
+    "stars": 6,
+    "branch": "artsfghter",
+    "class": "近卫"
+  },
+  {
+    "name": "号角",
+    "stars": 6,
+    "branch": "fortress",
+    "class": "重装"
+  },
+  {
+    "name": "司霆惊蛰",
+    "stars": 6,
+    "branch": "librator",
+    "class": "近卫"
+  },
+  {
+    "name": "圣约送葬人",
+    "stars": 6,
+    "branch": "reaper",
+    "class": "近卫"
+  },
+  {
+    "name": "圣聆初雪",
+    "stars": 6,
+    "branch": "phalanx",
+    "class": "术师"
+  },
+  {
+    "name": "塑心",
+    "stars": 6,
+    "branch": "ritualist",
+    "class": "辅助"
+  },
+  {
+    "name": "塞雷娅",
+    "stars": 6,
+    "branch": "guardian",
+    "class": "重装"
+  },
+  {
+    "name": "夕",
+    "stars": 6,
+    "branch": "splashcaster",
+    "class": "术师"
+  },
+  {
+    "name": "多萝西",
+    "stars": 6,
+    "branch": "traper",
+    "class": "特种"
+  },
+  {
+    "name": "夜莺",
+    "stars": 6,
+    "branch": "ringhealer",
+    "class": "医疗"
+  },
+  {
+    "name": "妮芙",
+    "stars": 6,
+    "branch": "primcaster",
+    "class": "术师"
+  },
+  {
+    "name": "娜仁图亚",
+    "stars": 6,
+    "branch": "loopshooter",
+    "class": "狙击"
+  },
+  {
+    "name": "娜斯提",
+    "stars": 6,
+    "branch": "craftsman",
+    "class": "辅助"
+  },
+  {
+    "name": "安洁莉娜",
+    "stars": 6,
+    "branch": "slower",
+    "class": "辅助"
+  },
+  {
+    "name": "山",
+    "stars": 6,
+    "branch": "fighter",
+    "class": "近卫"
+  },
+  {
+    "name": "嵯峨",
+    "stars": 6,
+    "branch": "pioneer",
+    "class": "先锋"
+  },
+  {
+    "name": "左乐",
+    "stars": 6,
+    "branch": "musha",
+    "class": "近卫"
+  },
+  {
+    "name": "帕拉斯",
+    "stars": 6,
+    "branch": "instructor",
+    "class": "近卫"
+  },
+  {
+    "name": "年",
+    "stars": 6,
+    "branch": "protector",
+    "class": "重装"
+  },
+  {
+    "name": "异客",
+    "stars": 6,
+    "branch": "chain",
+    "class": "术师"
+  },
+  {
+    "name": "弑君者",
+    "stars": 6,
+    "branch": "executor",
+    "class": "特种"
+  },
+  {
+    "name": "引星棘刺",
+    "stars": 6,
+    "branch": "alchemist",
+    "class": "特种"
+  },
+  {
+    "name": "归溟幽灵鲨",
+    "stars": 6,
+    "branch": "dollkeeper",
+    "class": "特种"
+  },
+  {
+    "name": "忍冬",
+    "stars": 6,
+    "branch": "pioneer",
+    "class": "先锋"
+  },
+  {
+    "name": "怒潮凛冬",
+    "stars": 6,
+    "branch": "hammer",
+    "class": "近卫"
+  },
+  {
+    "name": "推进之王",
+    "stars": 6,
+    "branch": "pioneer",
+    "class": "先锋"
+  },
+  {
+    "name": "提丰",
+    "stars": 6,
+    "branch": "siegesniper",
+    "class": "狙击"
+  },
+  {
+    "name": "斥罪",
+    "stars": 6,
+    "branch": "unyield",
+    "class": "重装"
+  },
+  {
+    "name": "斩业星熊",
+    "stars": 6,
+    "branch": "artsprotector",
+    "class": "重装"
+  },
+  {
+    "name": "斯卡蒂",
+    "stars": 6,
+    "branch": "fearless",
+    "class": "近卫"
+  },
+  {
+    "name": "新约能天使",
+    "stars": 6,
+    "branch": "geek",
+    "class": "特种"
+  },
+  {
+    "name": "早露",
+    "stars": 6,
+    "branch": "siegesniper",
+    "class": "狙击"
+  },
+  {
+    "name": "星熊",
+    "stars": 6,
+    "branch": "protector",
+    "class": "重装"
+  },
+  {
+    "name": "望",
+    "stars": 6,
+    "branch": "traper",
+    "class": "特种"
+  },
+  {
+    "name": "林",
+    "stars": 6,
+    "branch": "phalanx",
+    "class": "术师"
+  },
+  {
+    "name": "棘刺",
+    "stars": 6,
+    "branch": "lord",
+    "class": "近卫"
+  },
+  {
+    "name": "森蚺",
+    "stars": 6,
+    "branch": "duelist",
+    "class": "重装"
+  },
+  {
+    "name": "歌蕾蒂娅",
+    "stars": 6,
+    "branch": "hookmaster",
+    "class": "特种"
+  },
+  {
+    "name": "止颂",
+    "stars": 6,
+    "branch": "fearless",
+    "class": "近卫"
+  },
+  {
+    "name": "死芒",
+    "stars": 6,
+    "branch": "soulcaster",
+    "class": "术师"
+  },
+  {
+    "name": "水月",
+    "stars": 6,
+    "branch": "stalker",
+    "class": "特种"
+  },
+  {
+    "name": "泥岩",
+    "stars": 6,
+    "branch": "unyield",
+    "class": "重装"
+  },
+  {
+    "name": "流明",
+    "stars": 6,
+    "branch": "healer",
+    "class": "医疗"
+  },
+  {
+    "name": "浊心斯卡蒂",
+    "stars": 6,
+    "branch": "bard",
+    "class": "辅助"
+  },
+  {
+    "name": "涤火杰西卡",
+    "stars": 6,
+    "branch": "shotprotector",
+    "class": "重装"
+  },
+  {
+    "name": "淬羽赫默",
+    "stars": 6,
+    "branch": "blessing",
+    "class": "辅助"
+  },
+  {
+    "name": "温蒂",
+    "stars": 6,
+    "branch": "pusher",
+    "class": "特种"
+  },
+  {
+    "name": "溯光星源",
+    "stars": 6,
+    "branch": "slower",
+    "class": "辅助"
+  },
+  {
+    "name": "澄闪",
+    "stars": 6,
+    "branch": "funnel",
+    "class": "术师"
+  },
+  {
+    "name": "灰烬",
+    "stars": 6,
+    "branch": "fastshot",
+    "class": "狙击"
+  },
+  {
+    "name": "灵知",
+    "stars": 6,
+    "branch": "underminer",
+    "class": "辅助"
+  },
+  {
+    "name": "烛煌",
+    "stars": 6,
+    "branch": "primcaster",
+    "class": "术师"
+  },
+  {
+    "name": "焰尾",
+    "stars": 6,
+    "branch": "pioneer",
+    "class": "先锋"
+  },
+  {
+    "name": "焰影苇草",
+    "stars": 6,
+    "branch": "incantationmedic",
+    "class": "医疗"
+  },
+  {
+    "name": "焰狐龙梓兰",
+    "stars": 6,
+    "branch": "closerange",
+    "class": "狙击"
+  },
+  {
+    "name": "煌",
+    "stars": 6,
+    "branch": "centurion",
+    "class": "近卫"
+  },
+  {
+    "name": "玛恩纳",
+    "stars": 6,
+    "branch": "librator",
+    "class": "近卫"
+  },
+  {
+    "name": "玛露西尔",
+    "stars": 6,
+    "branch": "splashcaster",
+    "class": "术师"
+  },
+  {
+    "name": "琳琅诗怀雅",
+    "stars": 6,
+    "branch": "merchant",
+    "class": "特种"
+  },
+  {
+    "name": "琴柳",
+    "stars": 6,
+    "branch": "bearer",
+    "class": "先锋"
+  },
+  {
+    "name": "瑕光",
+    "stars": 6,
+    "branch": "guardian",
+    "class": "重装"
+  },
+  {
+    "name": "电弧",
+    "stars": 6,
+    "branch": "summoner",
+    "class": "辅助"
+  },
+  {
+    "name": "白铁",
+    "stars": 6,
+    "branch": "craftsman",
+    "class": "辅助"
+  },
+  {
+    "name": "百炼嘉维尔",
+    "stars": 6,
+    "branch": "centurion",
+    "class": "近卫"
+  },
+  {
+    "name": "真言",
+    "stars": 6,
+    "branch": "primcaster",
+    "class": "术师"
+  },
+  {
+    "name": "空弦",
+    "stars": 6,
+    "branch": "fastshot",
+    "class": "狙击"
+  },
+  {
+    "name": "纯烬艾雅法拉",
+    "stars": 6,
+    "branch": "wandermedic",
+    "class": "医疗"
+  },
+  {
+    "name": "维什戴尔",
+    "stars": 6,
+    "branch": "bombarder",
+    "class": "狙击"
+  },
+  {
+    "name": "维伊",
+    "stars": 6,
+    "branch": "mystic",
+    "class": "术师"
+  },
+  {
+    "name": "维娜·维多利亚",
+    "stars": 6,
+    "branch": "artsfghter",
+    "class": "近卫"
+  },
+  {
+    "name": "缄默德克萨斯",
+    "stars": 6,
+    "branch": "executor",
+    "class": "特种"
+  },
+  {
+    "name": "缇缇",
+    "stars": 6,
+    "branch": "incantationmedic",
+    "class": "医疗"
+  },
+  {
+    "name": "缪尔赛思",
+    "stars": 6,
+    "branch": "tactician",
+    "class": "先锋"
+  },
+  {
+    "name": "耀骑士临光",
+    "stars": 6,
+    "branch": "fearless",
+    "class": "近卫"
+  },
+  {
+    "name": "老鲤",
+    "stars": 6,
+    "branch": "merchant",
+    "class": "特种"
+  },
+  {
+    "name": "能天使",
+    "stars": 6,
+    "branch": "fastshot",
+    "class": "狙击"
+  },
+  {
+    "name": "艾丽妮",
+    "stars": 6,
+    "branch": "sword",
+    "class": "近卫"
+  },
+  {
+    "name": "艾拉",
+    "stars": 6,
+    "branch": "traper",
+    "class": "特种"
+  },
+  {
+    "name": "艾雅法拉",
+    "stars": 6,
+    "branch": "corecaster",
+    "class": "术师"
+  },
+  {
+    "name": "荒芜拉普兰德",
+    "stars": 6,
+    "branch": "funnel",
+    "class": "术师"
+  },
+  {
+    "name": "莫斯提马",
+    "stars": 6,
+    "branch": "splashcaster",
+    "class": "术师"
+  },
+  {
+    "name": "莱伊",
+    "stars": 6,
+    "branch": "hunter",
+    "class": "狙击"
+  },
+  {
+    "name": "菲亚梅塔",
+    "stars": 6,
+    "branch": "aoesniper",
+    "class": "狙击"
+  },
+  {
+    "name": "蕾缪安",
+    "stars": 6,
+    "branch": "longrange",
+    "class": "狙击"
+  },
+  {
+    "name": "薇薇安娜",
+    "stars": 6,
+    "branch": "artsfghter",
+    "class": "近卫"
+  },
+  {
+    "name": "贝洛内",
+    "stars": 6,
+    "branch": "fighter",
+    "class": "近卫"
+  },
+  {
+    "name": "赤刃明霄陈",
+    "stars": 6,
+    "branch": "artsfghter",
+    "class": "近卫"
+  },
+  {
+    "name": "赫德雷",
+    "stars": 6,
+    "branch": "crusher",
+    "class": "近卫"
+  },
+  {
+    "name": "赫拉格",
+    "stars": 6,
+    "branch": "musha",
+    "class": "近卫"
+  },
+  {
+    "name": "远牙",
+    "stars": 6,
+    "branch": "longrange",
+    "class": "狙击"
+  },
+  {
+    "name": "迷迭香",
+    "stars": 6,
+    "branch": "bombarder",
+    "class": "狙击"
+  },
+  {
+    "name": "逻各斯",
+    "stars": 6,
+    "branch": "corecaster",
+    "class": "术师"
+  },
+  {
+    "name": "遥",
+    "stars": 6,
+    "branch": "blessing",
+    "class": "辅助"
+  },
+  {
+    "name": "郁金香",
+    "stars": 6,
+    "branch": "pioneer",
+    "class": "先锋"
+  },
+  {
+    "name": "酒神",
+    "stars": 6,
+    "branch": "ritualist",
+    "class": "辅助"
+  },
+  {
+    "name": "重岳",
+    "stars": 6,
+    "branch": "fighter",
+    "class": "近卫"
+  },
+  {
+    "name": "铃兰",
+    "stars": 6,
+    "branch": "slower",
+    "class": "辅助"
+  },
+  {
+    "name": "银灰",
+    "stars": 6,
+    "branch": "lord",
+    "class": "近卫"
+  },
+  {
+    "name": "锏",
+    "stars": 6,
+    "branch": "sword",
+    "class": "近卫"
+  },
+  {
+    "name": "闪灵",
+    "stars": 6,
+    "branch": "physician",
+    "class": "医疗"
+  },
+  {
+    "name": "阿",
+    "stars": 6,
+    "branch": "geek",
+    "class": "特种"
+  },
+  {
+    "name": "阿斯卡纶",
+    "stars": 6,
+    "branch": "stalker",
+    "class": "特种"
+  },
+  {
+    "name": "陈",
+    "stars": 6,
+    "branch": "sword",
+    "class": "近卫"
+  },
+  {
+    "name": "隐德来希",
+    "stars": 6,
+    "branch": "reaper",
+    "class": "近卫"
+  },
+  {
+    "name": "霍尔海雅",
+    "stars": 6,
+    "branch": "corecaster",
+    "class": "术师"
+  },
+  {
+    "name": "领主·Sharp",
+    "stars": 6,
+    "branch": "lord",
+    "class": "近卫"
+  },
+  {
+    "name": "风笛",
+    "stars": 6,
+    "branch": "charger",
+    "class": "先锋"
+  },
+  {
+    "name": "魔王",
+    "stars": 6,
+    "branch": "bard",
+    "class": "辅助"
+  },
+  {
+    "name": "鸿雪",
+    "stars": 6,
+    "branch": "closerange",
+    "class": "狙击"
+  },
+  {
+    "name": "麒麟R夜刀",
+    "stars": 6,
+    "branch": "executor",
+    "class": "特种"
+  },
+  {
+    "name": "麦哲伦",
+    "stars": 6,
+    "branch": "summoner",
+    "class": "辅助"
+  },
+  {
+    "name": "黍",
+    "stars": 6,
+    "branch": "guardian",
+    "class": "重装"
+  },
+  {
+    "name": "黑",
+    "stars": 6,
+    "branch": "closerange",
+    "class": "狙击"
+  },
+  {
+    "name": "黑键",
+    "stars": 6,
+    "branch": "mystic",
+    "class": "术师"
+  }
+]

@@ -1,0 +1,14 @@
+{
+  "name": "博弈",
+  "version": "1.0.0",
+  "description": "双人联机连锁博弈小游戏",
+  "main": "server/index.js",
+  "scripts": {
+    "start": "node server/index.js",
+    "dev": "node --watch server/index.js"
+  },
+  "dependencies": {
+    "express": "^4.21.0",
+    "socket.io": "^4.7.5"
+  }
+}
