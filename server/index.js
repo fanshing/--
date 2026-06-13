@@ -1032,8 +1032,11 @@ io.on('connection', (socket) => {
 
     // 若只剩 1 名玩家且存在掉线席位：仅当“名字一致”才继承掉线玩家数据。
     // 避免：同一人掉线后用不同昵称回来，或第三人用新昵称加入时继承旧属性。
+    console.log('[JOIN DEBUG] count=' + curPlayerCount + ' seat=' + (savedSeat ? 'YES' : 'NO') + ' joinName=' + originalName + ' savedName=' + (savedSeat && savedSeat.player ? (savedSeat.player.originalName || savedSeat.player.name) : 'none'));
     if (curPlayerCount === 1 && savedSeat && savedSeat.player) {
-      if (shouldInheritSavedSeat(savedSeat.player, originalName)) {
+      var match = shouldInheritSavedSeat(savedSeat.player, originalName);
+      console.log('[JOIN DEBUG] nameMatch=' + match);
+      if (match) {
         const inherited = clonePlain(savedSeat.player);
         inherited.name = name;
         inherited.originalName = originalName;
@@ -1358,7 +1361,9 @@ io.on('connection', (socket) => {
       const wasPlayer = !!players[socket.id];
       // 玩家掉线：保存其数据，供下一位加入者继承
       if (wasPlayer) {
-        savedSeat = { oldId: SAVED_SEAT_TOKEN, player: clonePlain(players[socket.id]) };
+        var saved = clonePlain(players[socket.id]);
+        console.log('[DISC DEBUG] saving seat for ' + (saved.originalName || saved.name) + ' score=' + saved.score + ' pts=' + saved.callPoints);
+        savedSeat = { oldId: SAVED_SEAT_TOKEN, player: saved };
         // 将所有按 socketId 存的本回合状态迁移到占位 token，确保继承者可无缝接管
         migrateSocketIdInMatchState(socket.id, SAVED_SEAT_TOKEN);
       }
