@@ -1620,6 +1620,18 @@
     "class": "术师"
   },
   {
+    "name": "阿米娅(医疗)",
+    "stars": 5,
+    "branch": "咒愈师",
+    "class": "医疗"
+  },
+  {
+    "name": "阿米娅(近卫)",
+    "stars": 5,
+    "branch": "剑豪",
+    "class": "近卫"
+  },
+  {
     "name": "阿罗玛",
     "stars": 5,
     "branch": "轰击术师",
@@ -2458,12 +2470,6 @@
     "stars": 6,
     "branch": "中坚术师",
     "class": "术师"
-  },
-  {
-    "name": "领主·Sharp",
-    "stars": 6,
-    "branch": "领主",
-    "class": "近卫"
   },
   {
     "name": "风笛",
