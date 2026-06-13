@@ -1020,9 +1020,10 @@ io.on('connection', (socket) => {
     }
 
     if (curPlayerCount === 0) {
-      // 新开局：清空掉线席位，避免跨局继承
-      savedSeat = null;
-      resetMatchState({ reload: true });
+      // 有掉线席位则保留，让玩家重连恢复；无席位才重置
+      if (!savedSeat) {
+        resetMatchState({ reload: true });
+      }
     }
 
     const rawName = data && data.name ? data.name : '玩家';
@@ -1366,9 +1367,10 @@ io.on('connection', (socket) => {
       io.to(ROOM).emit('players', Object.values(players));
       const count = Object.keys(players).length;
       if (wasPlayer && count === 0) {
-        // 该对局清空：重置但保留房间本身（仍可再次加入）
-        savedSeat = null;
-        resetMatchState({ reload: true });
+        // 房间空了但保留掉线席位，方便玩家重连恢复
+        if (!savedSeat) {
+          resetMatchState({ reload: true });
+        }
         io.to(ROOM).emit('clear');
       }
     });
