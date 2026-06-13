@@ -594,54 +594,6 @@
     "class": "重装"
   },
   {
-    "name": "预备干员-先锋",
-    "stars": 4,
-    "branch": "pioneer",
-    "class": "先锋"
-  },
-  {
-    "name": "预备干员-医疗",
-    "stars": 4,
-    "branch": "physician",
-    "class": "医疗"
-  },
-  {
-    "name": "预备干员-术师",
-    "stars": 4,
-    "branch": "corecaster",
-    "class": "术师"
-  },
-  {
-    "name": "预备干员-特种",
-    "stars": 4,
-    "branch": "executor",
-    "class": "特种"
-  },
-  {
-    "name": "预备干员-狙击",
-    "stars": 4,
-    "branch": "fastshot",
-    "class": "狙击"
-  },
-  {
-    "name": "预备干员-辅助",
-    "stars": 4,
-    "branch": "slower",
-    "class": "辅助"
-  },
-  {
-    "name": "预备干员-近卫",
-    "stars": 4,
-    "branch": "fearless",
-    "class": "近卫"
-  },
-  {
-    "name": "预备干员-重装",
-    "stars": 4,
-    "branch": "protector",
-    "class": "重装"
-  },
-  {
     "name": "骋风",
     "stars": 4,
     "branch": "librator",
