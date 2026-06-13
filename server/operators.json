@@ -192,36 +192,6 @@
     "class": "先锋"
   },
   {
-    "name": "预备干员-后勤",
-    "stars": 3,
-    "branch": "医师",
-    "class": "医疗"
-  },
-  {
-    "name": "预备干员-术师",
-    "stars": 3,
-    "branch": "中坚术师",
-    "class": "术师"
-  },
-  {
-    "name": "预备干员-狙击",
-    "stars": 3,
-    "branch": "速射手",
-    "class": "狙击"
-  },
-  {
-    "name": "预备干员-近战",
-    "stars": 3,
-    "branch": "尖兵",
-    "class": "先锋"
-  },
-  {
-    "name": "预备干员-重装",
-    "stars": 3,
-    "branch": "铁卫",
-    "class": "重装"
-  },
-  {
     "name": "香草",
     "stars": 3,
     "branch": "尖兵",
@@ -444,12 +414,6 @@
     "class": "狙击"
   },
   {
-    "name": "盟约·辅助干员",
-    "stars": 4,
-    "branch": "巫役",
-    "class": "辅助"
-  },
-  {
     "name": "石英",
     "stars": 4,
     "branch": "重剑手",
@@ -604,30 +568,6 @@
     "stars": 5,
     "branch": "本源术师",
     "class": "术师"
-  },
-  {
-    "name": "Pith",
-    "stars": 5,
-    "branch": "扩散术师",
-    "class": "术师"
-  },
-  {
-    "name": "Sharp",
-    "stars": 5,
-    "branch": "无畏者",
-    "class": "近卫"
-  },
-  {
-    "name": "Stormeye",
-    "stars": 5,
-    "branch": "速射手",
-    "class": "狙击"
-  },
-  {
-    "name": "Touch",
-    "stars": 5,
-    "branch": "医师",
-    "class": "医疗"
   },
   {
     "name": "万顷",
@@ -1078,12 +1018,6 @@
     "stars": 5,
     "branch": "重射手",
     "class": "狙击"
-  },
-  {
-    "name": "暮落",
-    "stars": 5,
-    "branch": "驭法铁卫",
-    "class": "重装"
   },
   {
     "name": "暮落",
@@ -1632,12 +1566,6 @@
     "class": "狙击"
   },
   {
-    "name": "郁金香",
-    "stars": 5,
-    "branch": "尖兵",
-    "class": "先锋"
-  },
-  {
     "name": "野鬃",
     "stars": 5,
     "branch": "冲锋手",
@@ -1788,51 +1716,9 @@
     "class": "近卫"
   },
   {
-    "name": "Mechanist",
-    "stars": 6,
-    "branch": "铁卫",
-    "class": "重装"
-  },
-  {
-    "name": "Misery",
-    "stars": 6,
-    "branch": "处决者",
-    "class": "特种"
-  },
-  {
     "name": "Mon3tr",
     "stars": 6,
     "branch": "链愈师",
-    "class": "医疗"
-  },
-  {
-    "name": "Pith",
-    "stars": 6,
-    "branch": "扩散术师",
-    "class": "术师"
-  },
-  {
-    "name": "Raidian",
-    "stars": 6,
-    "branch": "凝滞师",
-    "class": "辅助"
-  },
-  {
-    "name": "Sharp",
-    "stars": 6,
-    "branch": "无畏者",
-    "class": "近卫"
-  },
-  {
-    "name": "Stormeye",
-    "stars": 6,
-    "branch": "速射手",
-    "class": "狙击"
-  },
-  {
-    "name": "Touch",
-    "stars": 6,
-    "branch": "医师",
     "class": "医疗"
   },
   {
@@ -2506,12 +2392,6 @@
     "stars": 6,
     "branch": "护佑者",
     "class": "辅助"
-  },
-  {
-    "name": "郁金香",
-    "stars": 6,
-    "branch": "尖兵",
-    "class": "先锋"
   },
   {
     "name": "酒神",
